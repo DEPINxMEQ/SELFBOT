@@ -662,7 +662,7 @@ const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 				gambar = fs.readFileSync('./src/help.jpg')
 				fakee = fs.readFileSync('./src/fake.jpg')
 			
-				isi = ` *SELF - BOT*
+				isi = ` *MEQI - BOT*
 				
 *• Bot Type :* NodeJS
 *• Lib :* Baileys
@@ -740,10 +740,8 @@ const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 *• ${prefix}return* [ javascript ]
 *• ${prefix}>* [ eval ]
 *• ${prefix}run* [ run javascript]
-*• ${prefix}$* [ exec termux ]
+*• ${prefix}$* [ exec termux ]`
 
-MORE? RAKIT SENDIRI :V
-`
 vanz.sendMessage(from, gambar, image, { quoted: ftoko, caption: isi, thumbnail: fakee, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 break
 case 'playmp3':   
